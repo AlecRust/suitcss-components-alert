@@ -1,0 +1,40 @@
+{
+  "name": "suitcss-components-alert",
+  "version": "1.0.0",
+  "description": "Structural alert styles for SUIT CSS",
+  "keywords": [
+    "browser",
+    "css-components",
+    "alert",
+    "suitcss",
+    "style"
+  ],
+  "homepage": "https://github.com/AlecRust/suitcss-components-alert#readme",
+  "bugs": "https://github.com/AlecRust/suitcss-components-alert/labels/bug",
+  "license": "MIT",
+  "author": "Alec Rust",
+  "files": [
+    "index.css",
+    "index.js",
+    "lib"
+  ],
+  "style": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AlecRust/suitcss-components-alert.git"
+  },
+  "scripts": {
+    "build": "yarn setup && yarn preprocess",
+    "build-test": "yarn setup && yarn preprocess-test",
+    "lint": "suitcss -e index.css build/lint.css && rm build/lint.css",
+    "preprocess": "suitcss index.css build/build.css",
+    "preprocess-test": "suitcss -i test test/test.css build/test.css",
+    "setup": "yarn",
+    "watch": "yarn preprocess-test -w -v",
+    "test": "yarn lint"
+  },
+  "devDependencies": {
+    "suitcss-components-test": "*",
+    "suitcss-preprocessor": "^4.0.0"
+  }
+}

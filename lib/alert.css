@@ -1,0 +1,36 @@
+/** @define Alert */
+
+:root {
+  --Alert-border-color: currentcolor;
+  --Alert-border-width: 1px;
+  --Alert-padding: 0.75em;
+
+  --Alert-success-background-color: #d4edda;
+  --Alert-success-border-color: #c3e6cb;
+  --Alert-success-text-color: #155724;
+
+  --Alert-danger-background-color: #f8d7da;
+  --Alert-danger-border-color: #f5c6cb;
+  --Alert-danger-text-color: #721c24;
+}
+
+.Alert {
+  border: var(--Alert-border-width) solid var(--Alert-border-color);
+  padding: var(--Alert-padding);
+}
+
+/*
+ * Modifiers
+ */
+
+.Alert--success {
+  background-color: var(--Alert-success-background-color);
+  border-color: var(--Alert-success-border-color);
+  color: var(--Alert-success-text-color);
+}
+
+.Alert--danger {
+  background-color: var(--Alert-danger-background-color);
+  border-color: var(--Alert-danger-border-color);
+  color: var(--Alert-danger-text-color);
+}
