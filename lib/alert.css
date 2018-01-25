@@ -1,21 +1,21 @@
 /** @define Alert */
 
 :root {
-  --Alert-border-color: currentcolor;
-  --Alert-border-width: 1px;
+  --Alert-borderColor: currentcolor;
+  --Alert-borderWidth: 1px;
   --Alert-padding: 0.75em;
 
-  --Alert-success-background-color: #d4edda;
-  --Alert-success-border-color: #c3e6cb;
-  --Alert-success-text-color: #155724;
+  --Alert--success-backgroundColor: #d4edda;
+  --Alert--success-borderColor: #c3e6cb;
+  --Alert--success-textColor: #155724;
 
-  --Alert-danger-background-color: #f8d7da;
-  --Alert-danger-border-color: #f5c6cb;
-  --Alert-danger-text-color: #721c24;
+  --Alert--danger-backgroundColor: #f8d7da;
+  --Alert--danger-borderColor: #f5c6cb;
+  --Alert--danger-textColor: #721c24;
 }
 
 .Alert {
-  border: var(--Alert-border-width) solid var(--Alert-border-color);
+  border: var(--Alert-borderWidth) solid var(--Alert-borderColor);
   padding: var(--Alert-padding);
 }
 
@@ -24,13 +24,13 @@
  */
 
 .Alert--success {
-  background-color: var(--Alert-success-background-color);
-  border-color: var(--Alert-success-border-color);
-  color: var(--Alert-success-text-color);
+  background-color: var(--Alert--success-backgroundColor);
+  border-color: var(--Alert--success-borderColor);
+  color: var(--Alert--success-textColor);
 }
 
 .Alert--danger {
-  background-color: var(--Alert-danger-background-color);
-  border-color: var(--Alert-danger-border-color);
-  color: var(--Alert-danger-text-color);
+  background-color: var(--Alert--danger-backgroundColor);
+  border-color: var(--Alert--danger-borderColor);
+  color: var(--Alert--danger-textColor);
 }

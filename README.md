@@ -24,17 +24,17 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 
 ## Configurable variables
 
-* `--Alert-border-color`
-* `--Alert-border-width`
+* `--Alert-borderColor`
+* `--Alert-borderWidth`
 * `--Alert-padding`
 
-* `--Alert-success-background-color`
-* `--Alert-success-border-color`
-* `--Alert-success-text-color`
+* `--Alert--success-backgroundColor`
+* `--Alert--success-borderColor`
+* `--Alert--success-textColor`
 
-* `--Alert-danger-background-color`
-* `--Alert-danger-border-color`
-* `--Alert-danger-text-color`
+* `--Alert--danger-backgroundColor`
+* `--Alert--danger-borderColor`
+* `--Alert--danger-textColor`
 
 ## Use
 
