@@ -21,6 +21,7 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 
 * `Alert--success` - Applies success colours to the alert
 * `Alert--danger` - Applies danger colours to the alert
+* `Alert--warning` - Applies warning colours to the alert
 
 ## Configurable variables
 
@@ -35,6 +36,10 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 * `--Alert--danger-backgroundColor`
 * `--Alert--danger-borderColor`
 * `--Alert--danger-textColor`
+
+* `--Alert--warning-backgroundColor`
+* `--Alert--warning-borderColor`
+* `--Alert--warning-textColor`
 
 ## Use
 

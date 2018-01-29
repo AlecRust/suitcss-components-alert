@@ -12,6 +12,10 @@
   --Alert--danger-backgroundColor: #f8d7da;
   --Alert--danger-borderColor: #f5c6cb;
   --Alert--danger-textColor: #721c24;
+
+  --Alert--warning-backgroundColor: #fff3cd;
+  --Alert--warning-borderColor: #ffeeba;
+  --Alert--warning-textColor: #856404;
 }
 
 .Alert {
@@ -33,4 +37,10 @@
   background-color: var(--Alert--danger-backgroundColor);
   border-color: var(--Alert--danger-borderColor);
   color: var(--Alert--danger-textColor);
+}
+
+.Alert--warning {
+  background-color: var(--Alert--warning-backgroundColor);
+  border-color: var(--Alert--warning-borderColor);
+  color: var(--Alert--warning-textColor);
 }
