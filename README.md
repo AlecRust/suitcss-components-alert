@@ -19,6 +19,7 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 
 ### Modifiers
 
+* `Alert--info` - Applies info colours to the alert
 * `Alert--success` - Applies success colours to the alert
 * `Alert--danger` - Applies danger colours to the alert
 * `Alert--warning` - Applies warning colours to the alert
@@ -28,6 +29,10 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 * `--Alert-borderColor`
 * `--Alert-borderWidth`
 * `--Alert-padding`
+
+* `--Alert--info-backgroundColor`
+* `--Alert--info-borderColor`
+* `--Alert--info-textColor`
 
 * `--Alert--success-backgroundColor`
 * `--Alert--success-borderColor`
