@@ -9,7 +9,7 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 
 * [yarn](https://yarnpkg.com/): `yarn add suitcss-components-alert`
 * [npm](https://www.npmjs.com/): `npm install suitcss-components-alert`
-* Download: [zip](https://github.com/AlecRust/suitcss-components-button/releases/latest)
+* Download: [zip](https://github.com/AlecRust/suitcss-components-alert/releases/latest)
 
 ## Available classes
 
