@@ -1,5 +1,9 @@
 ### HEAD
 
+### 1.3.0 (Sep 04, 2018)
+
+* Add `.Alert--info` modifier
+
 ### 1.2.0 (Jan 29, 2018)
 
 * Add `.Alert--warning` modifier
